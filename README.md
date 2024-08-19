@@ -10,4 +10,4 @@
 
 ### ¿Te gustaría formar parte de este proyecto? Estamos en busca de colaboradores entusiastas para unir fuerzas y mejorar continuamente el sitio. ¡Tu participación puede hacer una gran diferencia!
 
-### https://chat.whatsapp.com/K7UOckYesK98V5f6gHP01t
+#### https://chat.whatsapp.com/K7UOckYesK98V5f6gHP01t
