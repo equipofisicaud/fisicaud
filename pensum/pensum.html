@@ -11,7 +11,9 @@
 
 		<link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sticky-footer-navbar/">
 
+		<link rel="icon" href="../assets/icono.svg" type="image/svg">
 
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sidebars/">
 
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
@@ -26,78 +28,81 @@
 	user-select: none;
 }
 
-			@media (min-width: 768px) {
-				.bd-placeholder-img-lg {
-					font-size: 3.5rem;
-				}
-			}
+										@media (min-width: 768px) {
+											.bd-placeholder-img-lg {
+												font-size: 3.5rem;
+											}
+										}
 
-			.b-example-divider {
-				width: 100%;
-				height: 3rem;
-				background-color: rgba(0, 0, 0, .1);
-				border: solid rgba(0, 0, 0, .15);
-				border-width: 1px 0;
-				box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-			}
+										.b-example-divider {
+											width: 100%;
+											height: 3rem;
+											background-color: rgba(0, 0, 0, .1);
+											border: solid rgba(0, 0, 0, .15);
+											border-width: 1px 0;
+											box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+										}
 
-			.b-example-vr {
-				flex-shrink: 0;
-				width: 1.5rem;
-				height: 100vh;
-			}
+										.b-example-vr {
+											flex-shrink: 0;
+											width: 1.5rem;
+											height: 100vh;
+										}
 
-			.bi {
-				vertical-align: -.125em;
-				fill: currentColor;
-			}
+										.bi {
+											vertical-align: -.125em;
+											fill: currentColor;
+										}
 
-			.nav-scroller {
-				position: relative;
-				z-index: 2;
-				height: 2.75rem;
-				overflow-y: hidden;
-			}
+										.nav-scroller {
+											position: relative;
+											z-index: 2;
+											height: 2.75rem;
+											overflow-y: hidden;
+										}
 
-			.nav-scroller .nav {
-				display: flex;
-				flex-wrap: nowrap;
-				padding-bottom: 1rem;
-				margin-top: -1px;
-				overflow-x: auto;
-				text-align: center;
-				white-space: nowrap;
-				-webkit-overflow-scrolling: touch;
-			}
+										.nav-scroller .nav {
+											display: flex;
+											flex-wrap: nowrap;
+											padding-bottom: 1rem;
+											margin-top: -1px;
+											overflow-x: auto;
+											text-align: center;
+											white-space: nowrap;
+											-webkit-overflow-scrolling: touch;
+										}
 
-			.btn-bd-primary {
-				--bd-violet-bg: #712cf9;
-				--bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+										.btn-bd-primary {
+											--bd-violet-bg: #712cf9;
+											--bd-violet-rgb: 112.520718, 44.062154, 249.437846;
 
-				--bs-btn-font-weight: 600;
-				--bs-btn-color: var(--bs-white);
-				--bs-btn-bg: var(--bd-violet-bg);
-				--bs-btn-border-color: var(--bd-violet-bg);
-				--bs-btn-hover-color: var(--bs-white);
-				--bs-btn-hover-bg: #6528e0;
-				--bs-btn-hover-border-color: #6528e0;
-				--bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-				--bs-btn-active-color: var(--bs-btn-hover-color);
-				--bs-btn-active-bg: #5a23c8;
-				--bs-btn-active-border-color: #5a23c8;
-			}
+											--bs-btn-font-weight: 600;
+											--bs-btn-color: var(--bs-white);
+											--bs-btn-bg: var(--bd-violet-bg);
+											--bs-btn-border-color: var(--bd-violet-bg);
+											--bs-btn-hover-color: var(--bs-white);
+											--bs-btn-hover-bg: #6528e0;
+											--bs-btn-hover-border-color: #6528e0;
+											--bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+											--bs-btn-active-color: var(--bs-btn-hover-color);
+											--bs-btn-active-bg: #5a23c8;
+											--bs-btn-active-border-color: #5a23c8;
+										}
 
-			.bd-mode-toggle {
-				z-index: 1500;
-			}
+										.bd-mode-toggle {
+											z-index: 1500;
+										}
 
-			.bd-mode-toggle .dropdown-menu .active .bi {
-				display: block !important;
-			}
-	</style>
+										.bd-mode-toggle .dropdown-menu .active .bi {
+											display: block !important;
+										}
+		</style>
 
 
 		<!-- Custom styles for this template -->
+
+
+		<link href="sidebars.css" rel="stylesheet">
 		<link href="../sticky-footer-navbar.css" rel="stylesheet">
 	</head>
 	<body class="d-flex flex-column h-100">
@@ -157,7 +162,7 @@
 			<!-- Fixed navbar -->
 			<nav class="navbar navbar-expand-md navbar-dark fixed-top colornavbarnuevo">
 				<div class="container-fluid">
-					<a class="navbar-brand">Estudiantes Física UD</a>
+					<a class="navbar-brand"> <img src="../assets/icono.svg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">  Estudiantes Física UD</a>
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -189,19 +194,190 @@
 		</header>
 
 		<!-- Begin page content -->
-		<main class="flex-shrink-0">
-			<div class="container">
-				<h1 class="mt-5">Plan de estudios</h1>
-				
-			</div>
-		</main>
+		  <main class="d-flex flex-nowrap">
+			<div class="flex-shrink-0 p-3" style="width: 250px; margin-top: 60px;">
 
-		<footer class="footer mt-auto py-3 bg-body-tertiary">
-			<div class="container">
-				<span class="text-body-secondary">Página creada por estudiantes de Física de la UD</span>
-			</div>
-		</footer>
-		<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+				<a href="#" class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
+					<img src="../assets/libros.png" alt="Logo" width="30" height="30" style="margin-left: 30px;"    class="d-inline-block align-text-top">
+					<span class="fs-5 fw-semibold" style="margin-left: 10px;">Materias</span>
+				</a>
 
-	</body>
+				<ul class="list-unstyled ps-0">
+					<li class="mb-1">
+						<button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#primero-collapse" aria-expanded="false">
+							Primer semestre
+						</button>
+						<div class="collapse" id="primero-collapse">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Física 1</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Matemáticas 1</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Química general</a></li>
+							
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Redacción de textos 1</a></li>	
+							</ul>
+
+						</div>
+					</li>
+					<li class="mb-1">
+						<button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#segundo-collapse" aria-expanded="false">
+							Segundo semestre
+						</button>
+						<div class="collapse" id="segundo-collapse">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Física 2</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Matemáticas 2</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Algebra lineal</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Elementos computacionales</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Redacción de textos 2</a></li>
+							
+							</ul>
+						</div>
+					</li>
+					<li class="mb-1">
+						<button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#tercer-collapse" aria-expanded="false">
+							Tercer semestre
+						</button>
+						<div class="collapse" id="tercer-collapse">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Física 3</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Matemáticas 3</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Teoria de las probabilidades</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Lenguajes y algoritmos</a></li>
+							
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Fundamentos de metrología</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="mb-1">
+						<button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#cuarto-collapse" aria-expanded="false">
+							Cuarto semestre
+						</button>
+						<div class="collapse" id="cuarto-collapse">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Mecánica de fluidos</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Óptica general</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Ecuaciones diferenciales 1</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Métodos numéricos</a></li>
+							
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Instrumentación electrónica 1</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="mb-1">
+						<button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#quinto-collapse" aria-expanded="false">
+							Quinto semestre
+						</button>
+						<div class="collapse" id="quinto-collapse">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Termodinámica</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Teoria electromagnetica 1</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Ecuaciones diferenciales 2</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Variable compleja</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="mb-1">
+						<button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#sexto-collapse" aria-expanded="false">
+							Sexto semestre
+						</button>
+						<div class="collapse" id="sexto-collapse">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Mecánica estadística</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Teoria electromagnetica 2</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Métodos matemáticos de la Física</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Física computacional 1</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="mb-1">
+						<button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#septimo-collapse" aria-expanded="false">
+							Septimo semestre
+						</button>
+						<div class="collapse" id="septimo-collapse">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Física moderna</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Fisica atomica y nuclear</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Física computacional 2</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Automatización y control</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="mb-1">
+						<button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#octavo-collapse" aria-expanded="false">
+							Octavo semestre
+						</button>
+						<div class="collapse" id="octavo-collapse">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Introducción a la mecánica cuántica</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Estado sólido</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="mb-1">
+						<button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#noveno-collapse" aria-expanded="false">
+							Noveno semestre
+						</button>
+						<div class="collapse" id="noveno-collapse">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Mecánica cuántica avanzada</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Ciencias de los materiales</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="mb-1">
+						<button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#decimo-collapse" aria-expanded="false">
+							Decimo semestre
+						</button>
+						<div class="collapse" id="decimo-collapse">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Teoria general de la relatividad</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Nanotecnologia y nuevos materiales</a></li>
+							</ul>
+						</div>
+					</li>
+
+
+
+					<li class="border-top my-3"></li>
+					<li class="mb-1">
+						<button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#electivas-collapse" aria-expanded="false">
+							Electivas
+						</button>
+						<div class="collapse" id="electivas-collapse">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Mecánica analítica</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Simulación computacional de biosistemas</a></li>
+								<li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Fundamentos de física médica</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+
+
+			<div class="b-example-divider b-example-vr"></div>
+
+			<div class="container">
+				<h1 class="mt-5">
+
+					<img src="../assets/plan-de-estudios.png" alt="Logo" width="40" height="40" style="margin-top: 9px;" class="d-inline-block align-text-top">
+					Plan de estudios </h1>
+			</div>
+
+
+		  </main>
+
+		  <footer class="footer mt-auto py-3 bg-body-tertiary">
+			  <div class="container">
+				  <span class="text-body-secondary">Página creada por estudiantes de Física de la UD</span>
+			  </div>
+		  </footer>
+		  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+		  <script src="sidebars.js"></script></body>
+		  </body>
 </html>
