@@ -5,3 +5,11 @@
 main > .container {
   padding: 60px 15px 0;
 }
+
+.colornavbarnuevo {
+				--bs-bg-opacity: 1;
+		background-color: #2b3035;
+
+			}
+	
+
